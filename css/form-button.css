@@ -1,0 +1,47 @@
+.form-button{
+    height: 40px;
+    width: 140px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--primary-color);
+    border-style: none;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.form-button:hover{
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+}
+
+.form-button-light{
+    height: 40px;
+    width: 140px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--secundary-color);
+    border-style: none;
+    border-radius: 50px;
+    border: 2px solid var(--secundary-color);
+    background-color: transparent;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.form-button-light:hover{
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+}
+
+@media (max-width: 768px){
+    .form-button{
+        background-color: var(--primary-color);
+        color: var(--secundary-color);
+        border: 2px solid var(--secundary-color);
+    }
+}

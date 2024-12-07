@@ -1,0 +1,9 @@
+.form-title{
+    font-size: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.form-title-light{
+    color: var(--text-color-light);
+}

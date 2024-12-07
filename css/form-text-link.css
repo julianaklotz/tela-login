@@ -1,0 +1,13 @@
+.form-text{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+.form-link{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+.form-text-light{
+    color: var(--text-color-light);
+}
